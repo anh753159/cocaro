@@ -1,0 +1,21 @@
+D:\winform\Game Caro\General\bin\Debug\General.dll
+D:\winform\Game Caro\General\bin\Debug\General.pdb
+D:\winform\Game Caro\General\obj\Debug\ResolveAssemblyReference.cache
+D:\winform\Game Caro\General\obj\Debug\General.dll
+D:\winform\Game Caro\General\obj\Debug\General.pdb
+D:\Java\Game Caro\General\bin\Debug\General.dll
+D:\Java\Game Caro\General\bin\Debug\General.pdb
+D:\Java\Game Caro\General\obj\Debug\General.dll
+D:\Java\Game Caro\General\obj\Debug\General.pdb
+D:\Java\Game Caro\General\obj\Debug\General.csprojResolveAssemblyReference.cache
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\General\bin\Debug\General.dll
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\General\bin\Debug\General.pdb
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\General\obj\Debug\General.csprojAssemblyReference.cache
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\General\obj\Debug\General.dll
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\General\obj\Debug\General.pdb
+D:\Downloads\moi\Game Caro\General\bin\Debug\General.dll
+D:\Downloads\moi\Game Caro\General\bin\Debug\General.pdb
+D:\Downloads\moi\Game Caro\General\obj\Debug\General.csprojAssemblyReference.cache
+D:\Downloads\moi\Game Caro\General\obj\Debug\General.csproj.CoreCompileInputs.cache
+D:\Downloads\moi\Game Caro\General\obj\Debug\General.dll
+D:\Downloads\moi\Game Caro\General\obj\Debug\General.pdb

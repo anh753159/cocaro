@@ -1,0 +1,54 @@
+D:\winform\Game Caro\Client\bin\Debug\Client.exe
+D:\winform\Game Caro\Client\bin\Debug\Client.pdb
+D:\winform\Game Caro\Client\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\winform\Game Caro\Client\obj\x86\Debug\Client.FrmGame.resources
+D:\winform\Game Caro\Client\obj\x86\Debug\Client.FrmLogin.resources
+D:\winform\Game Caro\Client\obj\x86\Debug\Client.Properties.Resources.resources
+D:\winform\Game Caro\Client\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\winform\Game Caro\Client\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\winform\Game Caro\Client\obj\x86\Debug\Client.exe
+D:\winform\Game Caro\Client\obj\x86\Debug\Client.pdb
+D:\Java\Game Caro\Client\bin\Debug\Client.exe
+D:\Java\Game Caro\Client\bin\Debug\Client.pdb
+D:\Java\Game Caro\Client\obj\x86\Debug\Client.FrmGame.resources
+D:\Java\Game Caro\Client\obj\x86\Debug\Client.FrmLogin.resources
+D:\Java\Game Caro\Client\obj\x86\Debug\Client.Properties.Resources.resources
+D:\Java\Game Caro\Client\obj\x86\Debug\Client.exe
+D:\Java\Game Caro\Client\obj\x86\Debug\Client.pdb
+D:\Java\Game Caro\Client\obj\x86\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\bin\Debug\Client.exe
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\bin\Debug\Client.pdb
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\obj\x86\Debug\Client.csprojAssemblyReference.cache
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\obj\x86\Debug\Client.FrmGame.resources
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\obj\x86\Debug\Client.FrmLogin.resources
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\obj\x86\Debug\Client.Level.resources
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\obj\x86\Debug\Client.Mainmenu.resources
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\obj\x86\Debug\Client.Mode.resources
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\obj\x86\Debug\Client.Properties.Resources.resources
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\obj\x86\Debug\Client.csproj.GenerateResource.cache
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\obj\x86\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\obj\x86\Debug\Client.exe
+C:\Users\Minh Hieu\Downloads\Đồ án Game caro\Game Caro\Client\obj\x86\Debug\Client.pdb
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\bin\Debug\Client.exe
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\bin\Debug\Client.pdb
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\obj\x86\Debug\Client.csprojAssemblyReference.cache
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\obj\x86\Debug\Client.FrmGame.resources
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\obj\x86\Debug\Client.FrmLogin.resources
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\obj\x86\Debug\Client.Level.resources
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\obj\x86\Debug\Client.MainMenu.resources
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\obj\x86\Debug\Client.Mode.resources
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\obj\x86\Debug\Client.Properties.Resources.resources
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\obj\x86\Debug\Client.csproj.GenerateResource.cache
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\obj\x86\Debug\Client.exe
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Client\obj\x86\Debug\Client.pdb
+D:\Downloads\moi\Game Caro\Client\bin\Debug\Client.exe
+D:\Downloads\moi\Game Caro\Client\bin\Debug\Client.pdb
+D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.csprojAssemblyReference.cache
+D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.MainMenu.resources
+D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.Properties.Resources.resources
+D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.csproj.GenerateResource.cache
+D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.csproj.CoreCompileInputs.cache
+D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.exe
+D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.pdb
+D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.FormGame.resources
+D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.FormLogin.resources
