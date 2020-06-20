@@ -1,0 +1,32 @@
+D:\winform\Game Caro\Server\bin\Debug\Server.exe
+D:\winform\Game Caro\Server\bin\Debug\Server.pdb
+D:\winform\Game Caro\Server\bin\Debug\General.dll
+D:\winform\Game Caro\Server\bin\Debug\General.pdb
+D:\winform\Game Caro\Server\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\winform\Game Caro\Server\obj\x86\Debug\Server.Form1.resources
+D:\winform\Game Caro\Server\obj\x86\Debug\Server.Properties.Resources.resources
+D:\winform\Game Caro\Server\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\winform\Game Caro\Server\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\winform\Game Caro\Server\obj\x86\Debug\Server.exe
+D:\winform\Game Caro\Server\obj\x86\Debug\Server.pdb
+D:\Java\Game Caro\Server\obj\x86\Debug\Server.exe
+D:\Java\Game Caro\Server\obj\x86\Debug\Server.pdb
+D:\Java\Game Caro\Server\bin\Debug\Server.exe
+D:\Java\Game Caro\Server\bin\Debug\Server.pdb
+D:\Java\Game Caro\Server\bin\Debug\General.dll
+D:\Java\Game Caro\Server\bin\Debug\General.pdb
+D:\Java\Game Caro\Server\obj\x86\Debug\Server.Form1.resources
+D:\Java\Game Caro\Server\obj\x86\Debug\Server.Properties.Resources.resources
+D:\Java\Game Caro\Server\obj\x86\Debug\Server.csprojResolveAssemblyReference.cache
+D:\Java\Game Caro\Server\obj\x86\Debug\Server.csproj.GenerateResource.Cache
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Server\obj\x86\Debug\Server.csprojAssemblyReference.cache
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Server\obj\x86\Debug\Server.Form1.resources
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Server\obj\x86\Debug\Server.Properties.Resources.resources
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Server\obj\x86\Debug\Server.csproj.GenerateResource.cache
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Server\obj\x86\Debug\Server.exe
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Server\obj\x86\Debug\Server.pdb
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Server\bin\Debug\Server.exe
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Server\bin\Debug\Server.pdb
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Server\bin\Debug\General.dll
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Server\bin\Debug\General.pdb
+D:\UIT\CAC_MON_HOC_O_UIT\Năm 2\Kỳ 2 Năm 2\Lập Trình Mạng Căn Bản\Đồ Án\Lần 2\Game Caro\Server\obj\x86\Debug\Server.csproj.CopyComplete
