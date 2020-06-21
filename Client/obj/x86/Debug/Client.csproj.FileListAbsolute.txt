@@ -52,3 +52,16 @@ D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.exe
 D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.pdb
 D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.FormGame.resources
 D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.FormLogin.resources
+D:\Downloads\moi\Game Caro\Client\obj\x86\Debug\Client.FormRule.resources
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\bin\Debug\Client.exe
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\bin\Debug\Client.pdb
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\obj\x86\Debug\Client.csprojAssemblyReference.cache
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\obj\x86\Debug\Client.FormGame.resources
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\obj\x86\Debug\Client.FormLogin.resources
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\obj\x86\Debug\Client.MainMenu.resources
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\obj\x86\Debug\Client.Properties.Resources.resources
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\obj\x86\Debug\Client.FormRule.resources
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\obj\x86\Debug\Client.csproj.GenerateResource.cache
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\obj\x86\Debug\Client.csproj.CoreCompileInputs.cache
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\obj\x86\Debug\Client.exe
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\Client\obj\x86\Debug\Client.pdb

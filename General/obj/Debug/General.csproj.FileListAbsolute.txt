@@ -19,3 +19,9 @@ D:\Downloads\moi\Game Caro\General\obj\Debug\General.csprojAssemblyReference.cac
 D:\Downloads\moi\Game Caro\General\obj\Debug\General.csproj.CoreCompileInputs.cache
 D:\Downloads\moi\Game Caro\General\obj\Debug\General.dll
 D:\Downloads\moi\Game Caro\General\obj\Debug\General.pdb
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\General\bin\Debug\General.dll
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\General\bin\Debug\General.pdb
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\General\obj\Debug\General.csprojAssemblyReference.cache
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\General\obj\Debug\General.csproj.CoreCompileInputs.cache
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\General\obj\Debug\General.dll
+D:\Documents\LTM\Game Caro-20200621T044921Z-001\Game Caro\General\obj\Debug\General.pdb

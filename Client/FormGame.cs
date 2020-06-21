@@ -15,9 +15,9 @@ namespace Client
     {
         public FormGame()
         {
-            
             CheckForIllegalCrossThreadCalls = false;
             InitializeComponent();
+            btRule.Visible = false;
         }
         private class bdata
         {
@@ -161,9 +161,19 @@ namespace Client
             b.data = Encoding.Unicode.GetBytes("LAYDANHSACHPHONG|,");
             client.Send(b.data, b.data.Length, SocketFlags.None);
         }
+
+        private void laydanhsachplayer()
+        {
+            bdata b = new bdata();
+            b.data = Encoding.Unicode.GetBytes("LAYDANHSACHPLAYER|,");
+            client.Send(b.data, b.data.Length, SocketFlags.None);
+        }
         private void FrmGame_Load(object sender, EventArgs e)
         {
-           laydanhsachphonggame();
+            laydanhsachphonggame();
+            laydanhsachplayer();
+            btRule.Visible = false;
+            // tạo 1 thread client để lắng nghe  sever đưa thông tin về clinet 2 ( phòng 2 client)
             Thread thclient = new Thread(new ThreadStart(LangNgheServer));
             thclient.IsBackground = true;
             thclient.Start();
@@ -178,7 +188,7 @@ namespace Client
             {
                 try
                 {
-                    recv=client.Receive(bb.data);
+                    recv=client.Receive(bb.data);   // recv chứa data client đc gửi từ client khác 
                     str = Encoding.Unicode.GetString(bb.data, 0, recv);
                     a_str = str.Split('|');
                     LangNgheServer2(a_str[0], str);
@@ -222,6 +232,9 @@ namespace Client
                 case "DANHSACHPHONGGAME":
                     danhsachphonggame(str);
                     break;
+                case "DANHSACHPLAYER":
+                    danhsachplayer(str);
+                    break;
 
             }
         }
@@ -230,9 +243,17 @@ namespace Client
             a_str = str.Split(',');
             for (int i = 1; i < a_str.Length-1; i++)
             {
-                ltbdanhsachphonggame.Items.Add("Phòng " + a_str[i]);
+                ltbListRoom.Items.Add("Phòng " + a_str[i]);
             }
-            
+        }
+
+        private void danhsachplayer(string str)
+        {
+            a_str = str.Split(',');
+            for (int i = 1; i < a_str.Length - 1; i++)
+            {
+                lbPlayer.Items.Add("Player: " + a_str[i]);
+            }
         }
         private void conguoichoivaophong()
         {
@@ -300,10 +321,16 @@ namespace Client
         {
             plroom.Visible = false;
             pnlgame.Visible = true;
+            btRule.Visible = true;
             chuphong = true;
             taophongmoi();
             NguoiChoi = 2;
         }
+
+       
+
+
+
         /*private void button1_Click(object sender, EventArgs e)
         {
             
@@ -338,24 +365,33 @@ namespace Client
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+       
+        private void btRule_Click(object sender, EventArgs e)
         {
-
+            FormRule rule = new FormRule();
+            rule.Show();
         }
 
-        private void richTextBox3_TextChanged(object sender, EventArgs e)
+        private void btLoad_Click(object sender, EventArgs e)
         {
-
+            lbPlayer.Items.Clear();
+            laydanhsachplayer();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btLoadRoom_Click(object sender, EventArgs e)
         {
+            ltbListRoom.Items.Clear();
+            laydanhsachphonggame();
+        }
 
+        private void FormGame_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            client.Close();
         }
 
         private void ltbdanhsachphonggame_SelectedIndexChanged(object sender, EventArgs e)
         {
-            str = ltbdanhsachphonggame.SelectedItem.ToString();
+            str = ltbListRoom.SelectedItem.ToString();
             a_str = str.Split('(');
             str = a_str[0].Replace("Phòng", "").Trim();
             try

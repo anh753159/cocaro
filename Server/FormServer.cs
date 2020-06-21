@@ -170,7 +170,7 @@ namespace Server
         private void thoatphonggame(string str,byte[] data,Player ple)
         {
             a_str = str.Split(',');
-            if (int.Parse(a_str[1]) == 2)
+            //if (int.Parse(a_str[1]) == 2)
             {
                 if (ple.room.siso == 2)
                 {
@@ -188,7 +188,7 @@ namespace Server
                     ple.room = null;
                 }
             }
-            else
+            /*else
             {
                 if (ple.room.siso == 2)
                 {
@@ -204,7 +204,7 @@ namespace Server
                     phong.Remove(ple.room);
                     ple.room = null;
                 }
-            }
+            }*/
 
         }
         private void vaophong(string str,Player ple)
@@ -263,7 +263,7 @@ namespace Server
                 string danhsachplayer = "DANHSACHPLAYER|,";
                 foreach (Player p in player)
                 {
-                    danhsachplayer += p.room + "\t(" + p.name + "/2),";
+                    danhsachplayer += p.name + ",";
                 }
                 data = Encoding.Unicode.GetBytes(danhsachplayer);
                 ply.socket.Send(data, data.Length, SocketFlags.None);
