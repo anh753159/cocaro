@@ -19,6 +19,7 @@ namespace Server
         {
             CheckForIllegalCrossThreadCalls = false;
             InitializeComponent();
+            tbActivityHis.Enabled = false;
         }
         private class bdata
         {
@@ -27,21 +28,24 @@ namespace Server
         Socket TCPserver,TCPclient;
         IPEndPoint ipe;
         List<Player> player = new List<Player>();
-        
         List<Room> phong = new List<Room>();
-        Thread thclient;
+        Thread thclient;   // tạo luồng của clent 
         
         private void button1_Click(object sender, EventArgs e) // mở server để lắng nghe CLient
         {
             try
-            {
-                ipe = new IPEndPoint(IPAddress.Any, 9124);
+            {   //(IPAdress.any) cung cấp 1 địa chỉ IP chỉ ra rằng máy chủ phải lằng nghe hoạt động  của máy khách trên tất cả các giao diện mang 
+                ipe = new IPEndPoint(IPAddress.Any, 9124); 
+                // tạo socket sever bằng giao thức TCP socket 
                 TCPserver = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                TCPserver.Bind(ipe);
-                TCPserver.Listen(10);
+                // socket liên kết với endpoint ( điểm cuối sử dụng  bind)
+                 TCPserver.Bind(ipe);
+                //tối đa cho 100 máy client cho phép kết nối nếu máy thứ 101 thì phản hồi là sever đang bận
+                TCPserver.Listen(100);
 
-                Thread threadServer = new Thread(new ThreadStart(LangNgheClient));
+                Thread threadServer = new Thread(new ThreadStart(LangNgheClient));      //chạy tác vụ (phương thức) LangNgheClient 
                 threadServer.IsBackground = true;
+                //thread đc gọi khi bắt đầu start
                 threadServer.Start();
 
                 btOpenServ.Visible = false;
@@ -64,25 +68,27 @@ namespace Server
         private void LangNgheClient()
         {
 
-            
+            // chạy liên tục  lắng nghe  không dừng 
             while (true)
             {
                 try
                 {
 
-                    TCPclient = TCPserver.Accept();
-                    Player pl = new Player();
+                    TCPclient = TCPserver.Accept();         //chấp nhận kết nối của client
+                    Player pl = new Player(); // tạo 1 cái play er
                     pl.socket = TCPclient;
-                    pl.ipaddress = pl.socket.RemoteEndPoint.ToString();
+                    pl.ipaddress = pl.socket.RemoteEndPoint.ToString();     //cỗng kết nối của client
                     player.Add(pl);
 
-                    thclient = new Thread(LangNgheClientMoi);
+                    thclient = new Thread(LangNgheClientMoi);   // thread để các client không xung đột 
                     thclient.IsBackground = true;
+                    // bắt đầu chạy ( phương thức LangNgheClientMoi)) player -> nhiều player thì sẽ chia nhiều luồn không xung đột
                     thclient.Start(pl);
 
                     tbActivityHis.SelectionColor = Color.Blue;
                     tbActivityHis.AppendText("\nChấp Nhận kết nối từ " + pl.socket.RemoteEndPoint.ToString());
                     tbActivityHis.ScrollToCaret();
+                    
                 }
                 catch
                 {
@@ -155,6 +161,9 @@ namespace Server
                     break;
                 case "THOATKHOIPHONGGAME":
                     thoatphonggame(str,data,ple);
+                    break;
+                case "LAYDANHSACHPLAYER":
+                    laydanhsachplayer(ple);
                     break;
             }
         }
@@ -242,6 +251,21 @@ namespace Server
                     danhsachphong += r.sophong+"\t("+r.siso + "/2),";
                 }
                 data = Encoding.Unicode.GetBytes(danhsachphong);
+                ply.socket.Send(data, data.Length, SocketFlags.None);
+            }
+        }
+
+        private void laydanhsachplayer(Player ply)
+        {
+            //if (phong.Count > 0)
+            {
+                byte[] data = new byte[1024];
+                string danhsachplayer = "DANHSACHPLAYER|,";
+                foreach (Player p in player)
+                {
+                    danhsachplayer += p.room + "\t(" + p.name + "/2),";
+                }
+                data = Encoding.Unicode.GetBytes(danhsachplayer);
                 ply.socket.Send(data, data.Length, SocketFlags.None);
             }
         }
